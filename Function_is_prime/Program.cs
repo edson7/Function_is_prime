@@ -8,6 +8,7 @@ namespace Function_is_prime
         {
             //Staring Project here - GitHub
             Console.WriteLine(EstPremier(2));
+            Console.ReadKey();
         }
 
         public static bool EstPremier(int nombre)
