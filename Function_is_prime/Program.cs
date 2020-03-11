@@ -6,8 +6,8 @@ namespace Function_is_prime
     {
         static void Main(string[] args)
         {
-           //Staring Project here - GitHub
-      
+            //Staring Project here - GitHub
+            Console.WriteLine(EstPremier(2));
         }
 
         public static bool EstPremier(int nombre)
@@ -20,7 +20,6 @@ namespace Function_is_prime
                 {
                     nbDivisions++;
                 }
-
             }
             return nbDivisions == 2;
         }
